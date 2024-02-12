@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - HTML</title>
+    <style>
+<!--    you can change styles here:    -->
+        @page {
+            margin: 0px;
+        }
+        html, body {
+            height: 100%;
+            font-family: Calibri;
+        }
+        p {
+            font-size: 15px;
+            margin: 50px;
+        }
+        td {
+            vertical-align: top;
+        }
+        ul {
+            margin: 0px;
+        }
+        footer {
+            font-size: 10px;
+            position: absolute;
+            bottom: 0px;
+        }
+        .name {
+            font-size: 25px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .job-title {
+            font-size: 15px;
+            margin: 5px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .left-panel-par {
+            font-size: 15px;
+            margin: 5px;
+        }
+        .skill-par {
+            font-size: 15px;
+            margin: 5px;
+            font-weight: 600;
+        }
+        .skill-level-par {
+            font-size: 15px;
+            margin: 5px;
+            font-weight: normal;
+        }
+        .summary-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+        }
+        .date-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+        }
+        .company-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+            font-weight: 600;
+        }
+        .job-title-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+            font-weight: 600;
+        }
+        .school-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+            font-weight: 600;
+        }
+        .field-of-study-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+            font-weight: 600;
+        }
+        .type-of-studies-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+        }
+        .task-list-par {
+            font-size: 15px;
+            margin: 5px 0px 5px 5px;
+        }
+        .task-par {
+            font-size: 15px;
+            margin: 0px;
+        }
+        .main-table {
+            width: 100%;
+            height: 100%;
+        }
+        .table-left {
+            top: 0px;
+            width:30%
+        }
+        .table-right {
+            width:70%
+        }
+        .inner-table {
+            width: 100%;
+            height: 100%;
+        }
+        .inner-table-left {
+            top: 0px;
+            width:25%;
+        }
+        .inner-table-right {
+            top: 0px;
+            width:75%
+        }
+    </style>
+</head>
+<body>
+<table class="main-table">
+    <tr>
+        <td class="table-left">
+            <div>
+                <div>
+                    <p class="name">Jan Kowalski</p>
+                    <p class="job-title">Księgowy</p>
+                </div>
+                <div>
+                    <p class="left-panel-par">E-mail:</p>
+                    <p class="left-panel-par">kowalski@example.com</p>
+                    <p class="left-panel-par">Telefon:</p>
+                    <p class="left-panel-par">000-000-00</p>
+                </div>
+                <div>
+                    <p class="section-title">Języki</p>
+                    <p class="skill-par">Angielski<span class="skill-level-par"> - C1</span></p>
+                    <p class="skill-par">Niemiecki<span class="skill-level-par"> - B1</span></p>
+                </div>
+                <div>
+                    <p class="section-title">Umiejętności</p>
+                    <p class="skill-par">MS Excel<span class="skill-level-par"> - zaawansowany</span></p>
+                    <p class="skill-par">Program Symfonia<span class="skill-level-par"> - zaawansowany</span></p>
+                    <p class="skill-par">Program Płatnik<span class="skill-level-par"> - średniozaawansowany</span></p>
+                    <p class="skill-par">MS Word<span class="skill-level-par"> - średniozaawansowany</span></p>
+                </div>
+            </div>
+        </td>
+        <td class="table-right">
+            <div>
+                <div>
+                    <p class="section-title">Podsumowanie</p>
+                    <p class="summary-par">Jestem księgowym z ponat 5 letnim doświadczeniem.
+                        Posiadam niezbędne umiejętności do obsługi klientów na najwyższym poziomie.</p>
+                </div>
+                <div>
+                    <p class="section-title">Doświadczenie zawodowe</p>
+                    <table class="inner-table">
+                        <tr>
+                            <td><p class="date-par">06-2021 - obecnie</p></td>
+                            <td>
+                                <p class="job-title-par">Księgowy</p>
+                                <p class="company-par">Firma A</p>
+                                <p class="task-list-par">przykładowe zadania</p>
+                                <ul>
+                                    <li><p class="task-par">Prowadzenie pełnej księgowości</p></li>
+                                    <li><p class="task-par">Przygotowywanie raportów księgowych</p></li>
+                                    <li><p class="task-par">Przygotowywanie deklaracji podatkowych</p></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="date-par">07-2019 - 05-2021</p></td>
+                            <td>
+                                <p class="job-title-par">Młodszy Księgowy</p>
+                                <p class="company-par">Firma B</p>
+                                <p class="task-list-par">przykładowe zadania</p>
+                                <ul>
+                                    <li><p class="task-par">Księgowanie dokumentów</p></li>
+                                    <li><p class="task-par">Przygotowywanie raportów księgowych</p></li>
+                                    <li><p class="task-par">Analiza rozrachunków</p></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="date-par">06-2018 - 06-2019</p></td>
+                            <td>
+                                <p class="job-title-par">Asystent w dziale księgowości</p>
+                                <p class="company-par">Firma C</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <p class="section-title">Wykształcenie</p>
+                    <table class="inner-table">
+                        <tr>
+                            <td class="inner-table-left"><p class="date-par">10-2019 - 06-2020</p></td>
+                            <td class="inner-table-right">
+                                <p class="school-par">Uniwersytet A</p>
+                                <p class="field-of-study-par">Ksiegowanie w strefie euro</p>
+                                <p class="type-of-studies-par">Studia podyplomowe</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="date-par">10-2016 - 06-2018</p></td>
+                            <td>
+                                <p class="school-par">Uniwersytet B</p>
+                                <p class="field-of-study-par">Finanse i Rachunkowość</p>
+                                <p class="type-of-studies-par">Studia Magisterskie</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="date-par">10-2013 - 06-2016</p></td>
+                            <td>
+                                <p class="school-par">Uniwersytet B</p>
+                                <p class="field-of-study-par">Finanse i Rachunkowość</p>
+                                <p class="type-of-studies-par">Studia Licencjackie</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<footer>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w niniejszym dokumencie do realizacji
+    procesu rekrutacji zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000)
+    oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w
+    sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich
+    danych oraz uchylenia dyrektywy 95/46/WE (RODO).</footer>
+
+</body>
+</html>
