@@ -41,4 +41,5 @@ build/
 
 ###  my files  ###
 myFiles
+/src/main/java/com/bozo/myConverter/
 

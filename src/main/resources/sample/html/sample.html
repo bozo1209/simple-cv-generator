@@ -7,6 +7,7 @@
 <!--    you can change styles here:    -->
         @page {
             margin: 0px;
+            padding: 10px;
         }
         html, body {
             height: 100%;
@@ -26,6 +27,8 @@
             font-size: 10px;
             position: absolute;
             bottom: 0px;
+            text-align: justify;
+            text-justify: inter-character;
         }
         .name {
             font-size: 25px;
@@ -54,10 +57,14 @@
             font-size: 15px;
             margin: 5px;
             font-weight: normal;
+            text-align: justify;
+            text-justify: inter-character;
         }
         .summary-par {
             font-size: 15px;
             margin: 5px 0px 5px 5px;
+            text-align: justify;
+            text-justify: inter-character;
         }
         .date-par {
             font-size: 15px;
@@ -94,14 +101,21 @@
         .task-par {
             font-size: 15px;
             margin: 0px;
+            text-align: justify;
+            text-justify: inter-character;
         }
         .main-table {
             width: 100%;
             height: 100%;
+            position: absolute;
+            top:0;
+            bottom: 40;
         }
         .table-left {
             top: 0px;
-            width:30%
+            bottom: 0;
+            width:30%;
+            background-color: rgb(157, 197, 255);
         }
         .table-right {
             width:70%
@@ -130,22 +144,20 @@
                     <p class="job-title">Księgowy</p>
                 </div>
                 <div>
-                    <p class="left-panel-par">E-mail:</p>
-                    <p class="left-panel-par">kowalski@example.com</p>
-                    <p class="left-panel-par">Telefon:</p>
-                    <p class="left-panel-par">000-000-00</p>
+                    <p class="left-panel-par">E-mail:&nbsp;kowalski@example.com</p>
+                    <p class="left-panel-par">Telefon:&nbsp;000-000-00</p>
                 </div>
                 <div>
                     <p class="section-title">Języki</p>
-                    <p class="skill-par">Angielski<span class="skill-level-par"> - C1</span></p>
-                    <p class="skill-par">Niemiecki<span class="skill-level-par"> - B1</span></p>
+                    <p class="skill-par">Angielski&nbsp;<span class="skill-level-par">C1</span></p>
+                    <p class="skill-par">Niemiecki&nbsp;<span class="skill-level-par">B1</span></p>
                 </div>
                 <div>
                     <p class="section-title">Umiejętności</p>
-                    <p class="skill-par">MS Excel<span class="skill-level-par"> - zaawansowany</span></p>
-                    <p class="skill-par">Program Symfonia<span class="skill-level-par"> - zaawansowany</span></p>
-                    <p class="skill-par">Program Płatnik<span class="skill-level-par"> - średniozaawansowany</span></p>
-                    <p class="skill-par">MS Word<span class="skill-level-par"> - średniozaawansowany</span></p>
+                    <p class="skill-par">MS&nbsp;Excel&nbsp;<span class="skill-level-par">zaawansowany</span></p>
+                    <p class="skill-par">Program&nbsp;Symfonia&nbsp;<span class="skill-level-par">zaawansowany</span></p>
+                    <p class="skill-par">Program&nbsp;Płatnik&nbsp;<span class="skill-level-par">średniozaawansowany</span></p>
+                    <p class="skill-par">MS&nbsp;Word&nbsp;<span class="skill-level-par">średniozaawansowany</span></p>
                 </div>
             </div>
         </td>
@@ -153,7 +165,7 @@
             <div>
                 <div>
                     <p class="section-title">Podsumowanie</p>
-                    <p class="summary-par">Jestem księgowym z ponat 5 letnim doświadczeniem.
+                    <p class="summary-par">Jestem księgowym z&nbsp;ponat 5 letnim doświadczeniem.
                         Posiadam niezbędne umiejętności do obsługi klientów na najwyższym poziomie.</p>
                 </div>
                 <div>
@@ -227,10 +239,10 @@
         </td>
     </tr>
 </table>
-<footer>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w niniejszym dokumencie do realizacji
-    procesu rekrutacji zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000)
-    oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w
-    sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich
+<footer>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w&nbsp;niniejszym dokumencie do realizacji
+    procesu rekrutacji zgodnie z&nbsp;ustawą z&nbsp;dnia 10 maja 2018 roku o&nbsp;ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000)
+    oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i&nbsp;Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.
+    w&nbsp;sprawie ochrony osób fizycznych w&nbsp;związku z&nbsp;przetwarzaniem danych osobowych i&nbsp;w&nbsp;sprawie swobodnego przepływu takich
     danych oraz uchylenia dyrektywy 95/46/WE (RODO).</footer>
 
 </body>
